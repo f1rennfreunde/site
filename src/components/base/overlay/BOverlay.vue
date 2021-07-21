@@ -60,7 +60,7 @@ export default {
       }, {})
     },
     sendMail(body) {
-      const url = process.env.VUE_APP_MAIL_ENDPOINT ?? "https://f1rf-backend.herokuapp.com";
+      const url = "https://f1rf-backend.herokuapp.com";
       const isValidationError = this.fields
           .map(f => validator(f))
           .some(v => {
