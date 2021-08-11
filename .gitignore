@@ -21,3 +21,5 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+/src/assets/logo rennfreunde.webp
+/src/assets/quadrat.png
